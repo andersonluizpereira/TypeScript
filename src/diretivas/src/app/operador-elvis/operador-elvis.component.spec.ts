@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DiretivaNgclassComponent } from './diretiva-ngclass.component';
+import { OperadorElvisComponent } from './operador-elvis.component';
 
-describe('DiretivaNgclassComponent', () => {
-  let component: DiretivaNgclassComponent;
-  let fixture: ComponentFixture<DiretivaNgclassComponent>;
+describe('OperadorElvisComponent', () => {
+  let component: OperadorElvisComponent;
+  let fixture: ComponentFixture<OperadorElvisComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DiretivaNgclassComponent ]
+      declarations: [ OperadorElvisComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DiretivaNgclassComponent);
+    fixture = TestBed.createComponent(OperadorElvisComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
